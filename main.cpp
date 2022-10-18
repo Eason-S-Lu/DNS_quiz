@@ -26,4 +26,12 @@ using namespace std;
         else{
             cout << "Debug:code expericence error at line 15" << endl;
         }
+        cout << "Be ready to answer your question."<< endl;
+        cout << "Your question start in 3." << endl;
+        sleep(1000);
+        cout << "2" << endl;
+        sleep(1000);
+        cout << "1" << endl;
+        sleep(1000);
+        cout << "Question 1"<<  endl;
     }
