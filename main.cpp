@@ -5,8 +5,12 @@
 #include <locale>
 #include <algorithm>
 #include <stdexcept>
+#include <chrono>
+#include <thread>
 using namespace std;
     int main () {
+        using namespace std::this_thread;
+        using namespace std::chrono;
         cout << "Welcome to the DNS tester your question are being generated." << endl;
         cout << "Please wait......" << endl;
         int hardness_int;
@@ -28,10 +32,10 @@ using namespace std;
         }
         cout << "Be ready to answer your question."<< endl;
         cout << "Your question start in 3." << endl;
-        sleep(1000);
+        sleep_for(seconds(1));
         cout << "2" << endl;
-        sleep(1000);
+        sleep_for(seconds(1));
         cout << "1" << endl;
-        sleep(1000);
+        sleep_for(seconds(1));
         cout << "Question 1"<<  endl;
     }
