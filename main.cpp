@@ -37,5 +37,5 @@ using namespace std;
         sleep_for(seconds(1));
         cout << "1" << endl;
         sleep_for(seconds(1));
-        cout << "Question 1"<<  endl;
+        cout << "Question 1";s
     }
