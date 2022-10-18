@@ -25,7 +25,7 @@ using namespace std;
             cout << "Difficulty-3,hard" << endl;
         }
         else{
-            cout << "Debug code expericence error at line 15" << endl;
+            cout << "Debug:code expericence error at line 15" << endl;
         }
         }
     }
