@@ -12,7 +12,6 @@ using namespace std;
         int hardness_int;
         unsigned seed= time(0);
         srand(seed);
-        while (true){
         hardness_int = '1' + rand ()%3;
         cout << "Debug:hardness_int=" << hardness_int << endl;
         if (hardness_int == 49){
@@ -26,6 +25,5 @@ using namespace std;
         }
         else{
             cout << "Debug:code expericence error at line 15" << endl;
-        }
         }
     }
