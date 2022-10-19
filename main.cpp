@@ -58,6 +58,7 @@ using namespace std;
         //end if
         }
         //end while
-
+        cout << "Question 3:";
+        cout << "example.com >> e97d:71a6:901d:e458:2a4f:5798:da50:0747 is a [blank recourd].";
         return 0;
     }
