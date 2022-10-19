@@ -43,8 +43,18 @@ using namespace std;
         cout << "A:A        B:AAAA         C:CNAME        D:TXT" << endl;
         sleep_for(seconds(1));
         cout << "Please type A,B,C,D to the answer box" << endl;
+        while (true){
         cout << "Your choise is:";
         char answer1;
         cin >> answer1;
         cout << endl;
+        if (answer1 == 'A' || 'B' || 'C' || 'D'){
+            cout << "Your answer is accpted. Your answer is: " << answer1 << endl;
+            break;
+        }
+        else {
+            cout << "Please type A or B or C or D" << endl ;
+        }
+        }
+        return 0;
     }
