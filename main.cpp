@@ -37,5 +37,14 @@ using namespace std;
         sleep_for(seconds(1));
         cout << "1" << endl;
         sleep_for(seconds(1));
-        cout << "Question 1";s
+        cout << "Question 1:";
+        cout << "example.com >> 0.0.0.0 is a [blank] recourd." << endl;
+        sleep_for(seconds(1));
+        cout << "A:A        B:AAAA         C:CNAME        D:TXT" << endl;
+        sleep_for(seconds(1));
+        cout << "Please type A,B,C,D to the answer box" << endl;
+        cout << "Your choise is:";
+        char answer1;
+        cin >> answer1;
+        cout << endl;
     }
