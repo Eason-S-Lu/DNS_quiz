@@ -55,6 +55,9 @@ using namespace std;
         else {
             cout << "Please type A or B or C or D" << endl ;
         }
+        //end if
         }
+        //end while
+
         return 0;
     }
