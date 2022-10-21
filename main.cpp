@@ -111,5 +111,63 @@ using namespace std;
         //end if
         }
         //end while
+        if (hardness_int == 50){
+             cout << "Question 5:";
+        cout << "example.com >> mail.google.com." << endl;
+        sleep_for(seconds(1));
+        cout << "A:NS        B:AAAA         C:MX        D:TXT" << endl;
+         while (true){
+        cout << "Your choise is:";
+        char answer5;
+        cin >> answer5;
+        if (answer5 == 'A' || 'B' || 'C' || 'D'){
+            cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+            break;
+        }
+        else {
+            cout << "Please type A or B or C or D" << endl ;
+        }
+        //end if
+        }
+        //end while
+        }
+        if (hardness_int == 51){
+             cout << "Question 5:";
+        cout << "example.com >> mail.google.com." << endl;
+        sleep_for(seconds(1));
+        cout << "A:NS        B:AAAA         C:MX        D:TXT" << endl;
+         while (true){
+        cout << "Your choise is:";
+        char answer5;
+        cin >> answer5;
+        if (answer5 == 'A' || 'B' || 'C' || 'D'){
+            cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+            break;
+        }
+        else {
+            cout << "Please type A or B or C or D" << endl ;
+        }
+        //end if
+        }
+        //end while
+         cout << "Question 6:";
+        cout << "example.com >> md5 TUlJQ1l6Q0NBY3lnQXdJQkFnSUJBREFOQmdrcWh weight 772." << endl;
+        sleep_for(seconds(1));
+        cout << "A:CNAME        B:AAAA         C:CERT        D:TXT" << endl;
+         while (true){
+        cout << "Your choise is:";
+        char answer6;
+        cin >> answer6;
+        if (answer6 == 'A' || 'B' || 'C' || 'D'){
+            cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+            break;
+        }
+        else {
+            cout << "Please type A or B or C or D" << endl ;
+        }
+        //end if
+        }
+        //end while
+        }
         return 0;
     }
