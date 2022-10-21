@@ -112,7 +112,7 @@ using namespace std;
         }
         //end while
         cout << "Question 4:";
-        cout << "example.com >> google.com." << endl;
+        cout << "example.com >> google.com is a [blank recourd]." << endl;
         sleep_for(seconds(1));
         cout << "A:A        B:AAAA         C:CNAME        D:TXT" << endl;
          while (true){
@@ -135,7 +135,7 @@ using namespace std;
         //end while
         if (hardness_int == 50){
              cout << "Question 5:";
-        cout << "example.com >> mail.google.com." << endl;
+        cout << "example.com >> mail.google.com is a [blank recourd]." << endl;
         sleep_for(seconds(1));
         cout << "A:NS        B:AAAA         C:MX        D:TXT" << endl;
          while (true){
@@ -159,7 +159,7 @@ using namespace std;
         }
         if (hardness_int == 51){
              cout << "Question 5:";
-        cout << "example.com >> mail.google.com." << endl;
+        cout << "example.com >> mail.google.com is a [blank recourd]." << endl;
         sleep_for(seconds(1));
         cout << "A:NS        B:AAAA         C:MX        D:TXT" << endl;
          while (true){
@@ -181,7 +181,7 @@ using namespace std;
         }
         //end while
          cout << "Question 6:";
-        cout << "example.com >> md5 TUlJQ1l6Q0NBY3lnQXdJQkFnSUJBREFOQmdrcWh weight 772." << endl;
+        cout << "example.com >> md5 TUlJQ1l6Q0NBY3lnQXdJQkFnSUJBREFOQmdrcWh weight 772 is a [blank recourd]." << endl;
         sleep_for(seconds(1));
         cout << "A:CNAME        B:AAAA         C:CERT        D:TXT" << endl;
          while (true){
