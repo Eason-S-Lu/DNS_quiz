@@ -11,6 +11,12 @@ using namespace std;
     int main () {
         using namespace std::this_thread;
         using namespace std::chrono;
+        int score1 =0;
+        int score2 =0;
+        int score3=0;
+        int score4=0;
+        int score5=0;
+        int score6=0;
         cout << "Welcome to the DNS tester your question are being generated." << endl;
         cout << "Please wait......" << endl;
         int hardness_int;
@@ -49,6 +55,9 @@ using namespace std;
         cin >> answer1;
         if (answer1 == 'A' || 'B' || 'C' || 'D'){
             cout << "Your answer is accpted. Your answer is: " << answer1 << endl;
+            if (answer1 == 'A' || 'a'){
+                score1 = 1;
+            }
             break;
         }
         else {
@@ -67,6 +76,9 @@ using namespace std;
         cin >> answer2;
         if (answer2 == 'A' || 'B' || 'C' || 'D'){
             cout << "Your answer is accpted. Your answer is: " << answer2 << endl;
+            if (answer2 == 'B' || 'b'){
+                score2 = 1;
+            }
             break;
         }
         else {
@@ -85,6 +97,9 @@ using namespace std;
         cin >> answer3;
         if (answer3 == 'A' || 'B' || 'C' || 'D'){
             cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+             if (answer3 == 'D' || 'd'){
+                score3 = 1;
+            }
             break;
         }
         else {
@@ -102,7 +117,10 @@ using namespace std;
         char answer4;
         cin >> answer4;
         if (answer4 == 'A' || 'B' || 'C' || 'D'){
-            cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+            cout << "Your answer is accpted. Your answer is: " << answer4 << endl;
+            if (answer4 == 'C' || 'c'){
+                score4 = 1;
+            }
             break;
         }
         else {
@@ -121,7 +139,10 @@ using namespace std;
         char answer5;
         cin >> answer5;
         if (answer5 == 'A' || 'B' || 'C' || 'D'){
-            cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+            cout << "Your answer is accpted. Your answer is: " << answer5 << endl;
+            if (answer5 == 'C' || 'c'){
+                score5 = 1;
+            }
             break;
         }
         else {
@@ -141,7 +162,10 @@ using namespace std;
         char answer5;
         cin >> answer5;
         if (answer5 == 'A' || 'B' || 'C' || 'D'){
-            cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+            cout << "Your answer is accpted. Your answer is: " << answer5 << endl;
+            if (answer5 == 'C' || 'c'){
+                score5 = 1;
+            }
             break;
         }
         else {
@@ -159,7 +183,10 @@ using namespace std;
         char answer6;
         cin >> answer6;
         if (answer6 == 'A' || 'B' || 'C' || 'D'){
-            cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+            cout << "Your answer is accpted. Your answer is: " << answer6 << endl;
+            if (answer6 == 'C' || 'c '){
+                score6 = 1;
+            }
             break;
         }
         else {
@@ -169,8 +196,33 @@ using namespace std;
         }
         //end while
         }
-
-
-        
+        cout << "Question 1 :";
+        if (score1 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 2 :";
+        if (score2 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 3 :";
+        if (score3 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 4 :";
+        if (score4 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
         return 0;
     }
