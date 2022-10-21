@@ -53,7 +53,8 @@ using namespace std;
         cout << "Your choise is:";
         char answer1;
         cin >> answer1;
-        if (answer1 == 'A' || answer1 == 'B' || answer1 == 'C' || answer1 == 'D'){
+        if (answer1 == 'A' || answer1 == 'B' || answer1 == 'C' || answer1 == 'D'
+        ||answer1 == 'a' || answer1 == 'b' || answer1 == 'c' || answer1 == 'd'){
             cout << "Your answer is accpted. Your answer is: " << answer1 << endl;
             if (answer1 == 'A' || answer1 == 'a'){
                 score1 = 1;
@@ -74,7 +75,8 @@ using namespace std;
         cout << "Your choise is:";
         char answer2;
         cin >> answer2;
-        if (answer2 == 'A' || answer2 =='B' || answer2 =='C' || answer2 =='D'){
+        if (answer2 == 'A' || answer2 == 'B' || answer2 == 'C' || answer2 == 'D'
+        ||answer2 == 'a' || answer2 == 'b' || answer2 == 'c' || answer2 == 'd'){
             cout << "Your answer is accpted. Your answer is: " << answer2 << endl;
             if (answer2 == 'B' || answer2 =='b'){
                 score2 = 1;
@@ -95,7 +97,8 @@ using namespace std;
         cout << "Your choise is:";
         char answer3;
         cin >> answer3;
-        if (answer3 == 'A' || answer3 =='B' || answer3 =='C' || answer3 =='D'){
+        if (answer3 == 'A' || answer3 == 'B' || answer3 == 'C' || answer3 == 'D'
+        ||answer3 == 'a' || answer3 == 'b' || answer3 == 'c' || answer3 == 'd'){
             cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
              if (answer3 == 'D' || answer3 =='d'){
                 score3 = 1;
@@ -116,7 +119,8 @@ using namespace std;
         cout << "Your choise is:";
         char answer4;
         cin >> answer4;
-        if (answer4 == 'A' || answer4 =='B' || answer4 =='C' || answer4 =='D'){
+        if (answer4 == 'A' || answer4 == 'B' || answer4 == 'C' || answer4 == 'D'
+        ||answer4 == 'a' || answer4 == 'b' || answer4 == 'c' || answer4 == 'd'){
             cout << "Your answer is accpted. Your answer is: " << answer4 << endl;
             if (answer4 == 'C' || answer4 =='c'){
                 score4 = 1;
@@ -138,7 +142,8 @@ using namespace std;
         cout << "Your choise is:";
         char answer5;
         cin >> answer5;
-        if (answer5 == 'A' || answer5 =='B' || answer5 =='C' || answer5 =='D'){
+        if (answer5 == 'A' || answer5 == 'B' || answer5 == 'C' || answer5 == 'D'
+        ||answer5 == 'a' || answer5 == 'b' || answer5 == 'c' || answer5 == 'd'){
             cout << "Your answer is accpted. Your answer is: " << answer5 << endl;
             if (answer5 == 'C' || answer5 =='c'){
                 score5 = 1;
@@ -161,7 +166,8 @@ using namespace std;
         cout << "Your choise is:";
         char answer5;
         cin >> answer5;
-        if (answer5 == 'A' || answer5 =='B' || answer5 =='C' || answer5 =='D'){
+        if (answer5 == 'A' || answer5 == 'B' || answer5 == 'C' || answer5 == 'D'
+        ||answer5 == 'a' || answer5 == 'b' || answer5 == 'c' || answer5 == 'd'){
             cout << "Your answer is accpted. Your answer is: " << answer5 << endl;
             if (answer5 == 'C' || answer5 == 'c'){
                 score5 = 1;
@@ -182,7 +188,8 @@ using namespace std;
         cout << "Your choise is:";
         char answer6;
         cin >> answer6;
-        if (answer6 == 'A' || answer6 =='B' || answer6 =='C' || answer6 =='D'){
+        if (answer6 == 'A' || answer6 == 'B' || answer6 == 'C' || answer6 == 'D'
+        ||answer6 == 'a' || answer6 == 'b' || answer6 == 'c' || answer6 == 'd'){
             cout << "Your answer is accpted. Your answer is: " << answer6 << endl;
             if (answer6 == 'C' || answer6 =='c'){
                 score6 = 1;
