@@ -47,7 +47,6 @@ using namespace std;
         cout << "Your choise is:";
         char answer1;
         cin >> answer1;
-        cout << endl;
         if (answer1 == 'A' || 'B' || 'C' || 'D'){
             cout << "Your answer is accpted. Your answer is: " << answer1 << endl;
             break;
@@ -58,7 +57,59 @@ using namespace std;
         //end if
         }
         //end while
+        cout << "Question 2:";
+        cout << "example.com >> e97d:71a6:901d:e458:2a4f:5798:da50:0747 is a [blank recourd]." << endl;
+        sleep_for(seconds(1));
+        cout << "A:A        B:AAAA         C:CNAME        D:TXT" << endl;
+         while (true){
+        cout << "Your choise is:";
+        char answer2;
+        cin >> answer2;
+        if (answer2 == 'A' || 'B' || 'C' || 'D'){
+            cout << "Your answer is accpted. Your answer is: " << answer2 << endl;
+            break;
+        }
+        else {
+            cout << "Please type A or B or C or D" << endl ;
+        }
+        //end if
+        }
+        //end while
         cout << "Question 3:";
-        cout << "example.com >> e97d:71a6:901d:e458:2a4f:5798:da50:0747 is a [blank recourd].";
+        cout << "example.com >> Hi is a [blank recourd]." << endl;
+        sleep_for(seconds(1));
+        cout << "A:A        B:AAAA         C:CNAME        D:TXT" << endl;
+         while (true){
+        cout << "Your choise is:";
+        char answer3;
+        cin >> answer3;
+        if (answer3 == 'A' || 'B' || 'C' || 'D'){
+            cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+            break;
+        }
+        else {
+            cout << "Please type A or B or C or D" << endl ;
+        }
+        //end if
+        }
+        //end while
+        cout << "Question 4:";
+        cout << "example.com >> google.com." << endl;
+        sleep_for(seconds(1));
+        cout << "A:A        B:AAAA         C:CNAME        D:TXT" << endl;
+         while (true){
+        cout << "Your choise is:";
+        char answer4;
+        cin >> answer4;
+        if (answer4 == 'A' || 'B' || 'C' || 'D'){
+            cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
+            break;
+        }
+        else {
+            cout << "Please type A or B or C or D" << endl ;
+        }
+        //end if
+        }
+        //end while
         return 0;
     }
