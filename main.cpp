@@ -323,7 +323,7 @@ using namespace std;
         cout << endl;
         int total;
         total = score1 + score2 + score3 + score4 + score5 + score6;
-        cout << endl << "You get " << total << "correct";
+        cout << endl << "You get " << total << " correct" << endl << "Your score is " << total << "Points !";
         }
         return 0;
     }
