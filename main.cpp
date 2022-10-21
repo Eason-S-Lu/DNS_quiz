@@ -50,7 +50,7 @@ using namespace std;
         sleep_for(seconds(1));
         cout << "Please type A,B,C,D to the answer box" << endl;
         while (true){
-        cout << "Your choise is:";
+        cout << "Your answer is:";
         char answer1;
         cin >> answer1;
         if (answer1 == 'A' || answer1 == 'B' || answer1 == 'C' || answer1 == 'D'
@@ -72,7 +72,7 @@ using namespace std;
         sleep_for(seconds(1));
         cout << "A:A        B:AAAA         C:CNAME        D:TXT" << endl;
          while (true){
-        cout << "Your choise is:";
+        cout << "Your answer is:";
         char answer2;
         cin >> answer2;
         if (answer2 == 'A' || answer2 == 'B' || answer2 == 'C' || answer2 == 'D'
@@ -94,7 +94,7 @@ using namespace std;
         sleep_for(seconds(1));
         cout << "A:A        B:AAAA         C:CNAME        D:TXT" << endl;
          while (true){
-        cout << "Your choise is:";
+        cout << "Your answer is:";
         char answer3;
         cin >> answer3;
         if (answer3 == 'A' || answer3 == 'B' || answer3 == 'C' || answer3 == 'D'
@@ -116,7 +116,7 @@ using namespace std;
         sleep_for(seconds(1));
         cout << "A:A        B:AAAA         C:CNAME        D:TXT" << endl;
          while (true){
-        cout << "Your choise is:";
+        cout << "Your answer is:";
         char answer4;
         cin >> answer4;
         if (answer4 == 'A' || answer4 == 'B' || answer4 == 'C' || answer4 == 'D'
@@ -139,7 +139,7 @@ using namespace std;
         sleep_for(seconds(1));
         cout << "A:NS        B:AAAA         C:MX        D:TXT" << endl;
          while (true){
-        cout << "Your choise is:";
+        cout << "Your answer is:";
         char answer5;
         cin >> answer5;
         if (answer5 == 'A' || answer5 == 'B' || answer5 == 'C' || answer5 == 'D'
@@ -163,7 +163,7 @@ using namespace std;
         sleep_for(seconds(1));
         cout << "A:NS        B:AAAA         C:MX        D:TXT" << endl;
          while (true){
-        cout << "Your choise is:";
+        cout << "Your answer is:";
         char answer5;
         cin >> answer5;
         if (answer5 == 'A' || answer5 == 'B' || answer5 == 'C' || answer5 == 'D'
@@ -185,7 +185,7 @@ using namespace std;
         sleep_for(seconds(1));
         cout << "A:CNAME        B:AAAA         C:CERT        D:TXT" << endl;
          while (true){
-        cout << "Your choise is:";
+        cout << "Your answer is:";
         char answer6;
         cin >> answer6;
         if (answer6 == 'A' || answer6 == 'B' || answer6 == 'C' || answer6 == 'D'
