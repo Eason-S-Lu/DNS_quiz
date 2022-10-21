@@ -11,8 +11,8 @@ using namespace std;
     int main () {
         using namespace std::this_thread;
         using namespace std::chrono;
-        int score1 =0;
-        int score2 =0;
+        int score1=0;
+        int score2=0;
         int score3=0;
         int score4=0;
         int score5=0;
@@ -53,9 +53,9 @@ using namespace std;
         cout << "Your choise is:";
         char answer1;
         cin >> answer1;
-        if (answer1 == 'A' || 'B' || 'C' || 'D'){
+        if (answer1 == 'A' || answer1 == 'B' || answer1 == 'C' || answer1 == 'D'){
             cout << "Your answer is accpted. Your answer is: " << answer1 << endl;
-            if (answer1 == 'A' || 'a'){
+            if (answer1 == 'A' || answer1 == 'a'){
                 score1 = 1;
             }
             break;
@@ -74,9 +74,9 @@ using namespace std;
         cout << "Your choise is:";
         char answer2;
         cin >> answer2;
-        if (answer2 == 'A' || 'B' || 'C' || 'D'){
+        if (answer2 == 'A' || answer2 =='B' || answer2 =='C' || answer2 =='D'){
             cout << "Your answer is accpted. Your answer is: " << answer2 << endl;
-            if (answer2 == 'B' || 'b'){
+            if (answer2 == 'B' || answer2 =='b'){
                 score2 = 1;
             }
             break;
@@ -95,9 +95,9 @@ using namespace std;
         cout << "Your choise is:";
         char answer3;
         cin >> answer3;
-        if (answer3 == 'A' || 'B' || 'C' || 'D'){
+        if (answer3 == 'A' || answer3 =='B' || answer3 =='C' || answer3 =='D'){
             cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
-             if (answer3 == 'D' || 'd'){
+             if (answer3 == 'D' || answer3 =='d'){
                 score3 = 1;
             }
             break;
@@ -116,9 +116,9 @@ using namespace std;
         cout << "Your choise is:";
         char answer4;
         cin >> answer4;
-        if (answer4 == 'A' || 'B' || 'C' || 'D'){
+        if (answer4 == 'A' || answer4 =='B' || answer4 =='C' || answer4 =='D'){
             cout << "Your answer is accpted. Your answer is: " << answer4 << endl;
-            if (answer4 == 'C' || 'c'){
+            if (answer4 == 'C' || answer4 =='c'){
                 score4 = 1;
             }
             break;
@@ -138,9 +138,9 @@ using namespace std;
         cout << "Your choise is:";
         char answer5;
         cin >> answer5;
-        if (answer5 == 'A' || 'B' || 'C' || 'D'){
+        if (answer5 == 'A' || answer5 =='B' || answer5 =='C' || answer5 =='D'){
             cout << "Your answer is accpted. Your answer is: " << answer5 << endl;
-            if (answer5 == 'C' || 'c'){
+            if (answer5 == 'C' || answer5 =='c'){
                 score5 = 1;
             }
             break;
@@ -161,9 +161,9 @@ using namespace std;
         cout << "Your choise is:";
         char answer5;
         cin >> answer5;
-        if (answer5 == 'A' || 'B' || 'C' || 'D'){
+        if (answer5 == 'A' || answer5 =='B' || answer5 =='C' || answer5 =='D'){
             cout << "Your answer is accpted. Your answer is: " << answer5 << endl;
-            if (answer5 == 'C' || 'c'){
+            if (answer5 == 'C' || answer5 == 'c'){
                 score5 = 1;
             }
             break;
@@ -182,9 +182,9 @@ using namespace std;
         cout << "Your choise is:";
         char answer6;
         cin >> answer6;
-        if (answer6 == 'A' || 'B' || 'C' || 'D'){
+        if (answer6 == 'A' || answer6 =='B' || answer6 =='C' || answer6 =='D'){
             cout << "Your answer is accpted. Your answer is: " << answer6 << endl;
-            if (answer6 == 'C' || 'c '){
+            if (answer6 == 'C' || answer6 =='c'){
                 score6 = 1;
             }
             break;
@@ -196,6 +196,7 @@ using namespace std;
         }
         //end while
         }
+        if (hardness_int == 49){
         cout << "Question 1 :";
         if (score1 == 0){
             cout << "false";
@@ -223,6 +224,99 @@ using namespace std;
         } 
         else{
             cout << "true";
+        }
+        int total;
+        total = score1 + score2 + score3 + score4;
+        cout << endl << "You get " << total << "correct";
+        }
+        else if (hardness_int == 50){
+         cout << "Question 1 :";
+        if (score1 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 2 :";
+        if (score2 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 3 :";
+        if (score3 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 4 :";
+        if (score4 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 5 :";
+        if (score5 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout << endl;
+        int total;
+        total = score1 + score2 + score3 + score4 + score5;
+        cout << endl << "You get " << total << "correct";
+        }
+        else{
+            cout << "Question 1 :";
+        if (score1 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 2 :";
+        if (score2 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 3 :";
+        if (score3 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 4 :";
+        if (score4 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 5 :";
+        if (score5 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout<< endl << "Question 6 :";
+        if (score6 == 0){
+            cout << "false";
+        } 
+        else{
+            cout << "true";
+        }
+        cout << endl;
+        int total;
+        total = score1 + score2 + score3 + score4 + score5 + score6;
+        cout << endl << "You get " << total << "correct";
         }
         return 0;
     }
