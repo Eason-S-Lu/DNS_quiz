@@ -58,8 +58,9 @@ using namespace std;
             cout << "Your answer is accpted. Your answer is: " << answer1 << endl;
             if (answer1 == 'A' || answer1 == 'a'){
                 score1 = 1;
+                break;
             }
-            break;
+           
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -80,8 +81,8 @@ using namespace std;
             cout << "Your answer is accpted. Your answer is: " << answer2 << endl;
             if (answer2 == 'B' || answer2 =='b'){
                 score2 = 1;
+                break;
             }
-            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -102,8 +103,8 @@ using namespace std;
             cout << "Your answer is accpted. Your answer is: " << answer3 << endl;
              if (answer3 == 'D' || answer3 =='d'){
                 score3 = 1;
+                break;
             }
-            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -124,8 +125,8 @@ using namespace std;
             cout << "Your answer is accpted. Your answer is: " << answer4 << endl;
             if (answer4 == 'C' || answer4 =='c'){
                 score4 = 1;
+                break;
             }
-            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -147,8 +148,8 @@ using namespace std;
             cout << "Your answer is accpted. Your answer is: " << answer5 << endl;
             if (answer5 == 'C' || answer5 =='c'){
                 score5 = 1;
+                 break;
             }
-            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -171,8 +172,8 @@ using namespace std;
             cout << "Your answer is accpted. Your answer is: " << answer5 << endl;
             if (answer5 == 'C' || answer5 == 'c'){
                 score5 = 1;
+                 break;
             }
-            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -193,8 +194,8 @@ using namespace std;
             cout << "Your answer is accpted. Your answer is: " << answer6 << endl;
             if (answer6 == 'C' || answer6 =='c'){
                 score6 = 1;
+                 break;
             }
-            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
