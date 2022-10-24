@@ -60,7 +60,7 @@ using namespace std;
                 score1 = 1;
                 break;
             }
-           
+           break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -83,6 +83,7 @@ using namespace std;
                 score2 = 1;
                 break;
             }
+            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -105,6 +106,7 @@ using namespace std;
                 score3 = 1;
                 break;
             }
+            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -127,6 +129,7 @@ using namespace std;
                 score4 = 1;
                 break;
             }
+            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -150,6 +153,7 @@ using namespace std;
                 score5 = 1;
                  break;
             }
+            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -174,6 +178,7 @@ using namespace std;
                 score5 = 1;
                  break;
             }
+            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
@@ -196,6 +201,7 @@ using namespace std;
                 score6 = 1;
                  break;
             }
+            break;
         }
         else {
             cout << "Please type A or B or C or D" << endl ;
