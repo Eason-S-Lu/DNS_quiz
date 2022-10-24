@@ -207,31 +207,31 @@ using namespace std;
         if (hardness_int == 49){
         cout << "Question 1 :";
         if (score1 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is A.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 2 :";
         if (score2 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is B.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 3 :";
         if (score3 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is D.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 4 :";
         if (score4 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is C.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         int total;
         total = score1 + score2 + score3 + score4;
@@ -240,38 +240,38 @@ using namespace std;
         else if (hardness_int == 50){
          cout << "Question 1 :";
         if (score1 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is A.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 2 :";
         if (score2 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is B.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 3 :";
         if (score3 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is D.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 4 :";
         if (score4 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is C.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 5 :";
         if (score5 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is C.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout << endl;
         int total;
@@ -281,45 +281,45 @@ using namespace std;
         else{
             cout << "Question 1 :";
         if (score1 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is A.";
         } 
         else{
             cout << "true";
         }
         cout<< endl << "Question 2 :";
         if (score2 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is B.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 3 :";
         if (score3 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is D.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 4 :";
         if (score4 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is C.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 5 :";
         if (score5 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is C.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 6 :";
         if (score6 == 0){
-            cout << "false";
+            cout << "wrong,The correct answer is C.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout << endl;
         int total;
