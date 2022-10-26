@@ -290,7 +290,7 @@ using namespace std;
             cout << "wrong,The correct answer is A.";
         } 
         else{
-            cout << "true";
+            cout << "correct";
         }
         cout<< endl << "Question 2 :";
         if (score2 == 0){
